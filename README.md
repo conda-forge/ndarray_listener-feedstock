@@ -7,9 +7,8 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: NumPy ndarray listener
-
-NumPy array that listen.
+Summary: Implementation of the [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
+for [NumPy](http://www.numpy.org) arrays.
 
 
 Installing ndarray_listener
