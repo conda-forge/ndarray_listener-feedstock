@@ -7,8 +7,8 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Implementation of the [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
-for [NumPy](http://www.numpy.org) arrays.
+Summary: Implementation of the Observer pattern for NumPy arrays.
+
 
 
 Installing ndarray_listener
@@ -31,7 +31,6 @@ It is possible to list all of the versions of `ndarray_listener` available on yo
 ```
 conda search ndarray_listener --channel conda-forge
 ```
-
 
 
 About conda-forge
