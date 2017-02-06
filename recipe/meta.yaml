@@ -1,6 +1,6 @@
 {% set name = "ndarray-listener" %}
-{% set version = "1.0.18" %}
-{% set sha256 = "c8b9d48b7477c27a218daf26b8712b8365df7f23bd1cf387c0b28d377e7f54f5" %}
+{% set version = "1.0.19" %}
+{% set sha256 = "e94f72ac2b58c9680205d65778fb8243dc3a4c883f174cd7abcd24081458ddc4" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
