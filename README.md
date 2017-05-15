@@ -1,7 +1,7 @@
 About ndarray-listener
 ======================
 
-Home: https://github.com/glimix/ndarray-listener
+Home: https://github.com/limix/ndarray-listener
 
 Package license: MIT
 

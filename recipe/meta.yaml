@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
     - pytest-runner
   run:
     - python
-    - numpy >=1.9
+    - numpy >=1.10
 
 test:
   requires:
@@ -33,13 +33,13 @@ test:
     - python -c "import sys; import ndarray_listener; sys.exit(ndarray_listener.test())"
 
 about:
-  home: https://github.com/glimix/ndarray-listener
+  home: https://github.com/limix/ndarray-listener
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: 'Implementation of the Observer pattern for NumPy arrays.'
-  doc_url: https://github.com/glimix/ndarray-listener
-  dev_url: https://github.com/glimix/ndarray-listener
+  doc_url: https://github.com/limix/ndarray-listener
+  dev_url: https://github.com/limix/ndarray-listener
 
 extra:
   recipe-maintainers:
