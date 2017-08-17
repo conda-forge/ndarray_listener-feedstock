@@ -1,6 +1,6 @@
 {% set name = "ndarray-listener" %}
-{% set version = "1.0.22" %}
-{% set sha256 = "abb832557e103ea0a72c27d7422ac9c11ce35c4357f2ae30ee5f8b81b6a5495b" %}
+{% set version = "1.0.23" %}
+{% set sha256 = "aa5d884aa7fa2965853bce9d6f866bdbc1007c5e231967f43f53f92fa7d66540" %}
 
 package:
   name: {{ name|lower }}
@@ -37,7 +37,7 @@ about:
   home: https://github.com/limix/ndarray-listener
   license: MIT
   license_family: MIT
-  license_file: LICENSE
+  license_file: LICENSE.txt
   summary: 'Implementation of the Observer pattern for NumPy arrays.'
   doc_url: https://github.com/limix/ndarray-listener
   dev_url: https://github.com/limix/ndarray-listener
