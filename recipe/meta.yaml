@@ -1,6 +1,6 @@
 {% set name = "ndarray-listener" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "f856f7cfd6c652900986d58acbf93f4365fe99c475c7282d06fcaabf27764a52" %}
+{% set version = "1.1.2" %}
+{% set sha256 = "624e8987d10b42c8cdb73ed7f4ed42b150cfe4b1b4f8785e8dc32c312ba6303e" %}
 
 package:
   name: {{ name|lower }}
