@@ -14,14 +14,16 @@ Summary: Implementation of the Observer pattern for NumPy arrays.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ndarray_listener-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ndarray_listener-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/ndarray_listener-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ndarray_listener-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ndarray_listener-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ndarray-listener-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/ndarray_listener-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/ndarray_listener-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/ndarray_listener-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/ndarray_listener-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/ndarray_listener-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/ndarray-listener-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ndarray-listener/badges/version.svg)](https://anaconda.org/conda-forge/ndarray-listener)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ndarray-listener/badges/downloads.svg)](https://anaconda.org/conda-forge/ndarray-listener)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ndarray--listener-green.svg)](https://anaconda.org/conda-forge/ndarray-listener) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ndarray-listener.svg)](https://anaconda.org/conda-forge/ndarray-listener) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ndarray-listener.svg)](https://anaconda.org/conda-forge/ndarray-listener) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ndarray-listener.svg)](https://anaconda.org/conda-forge/ndarray-listener) |
 
 Installing ndarray-listener
 ===========================
