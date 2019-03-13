@@ -1,6 +1,6 @@
 {% set name = "ndarray-listener" %}
-{% set version = "1.1.2" %}
-{% set sha256 = "624e8987d10b42c8cdb73ed7f4ed42b150cfe4b1b4f8785e8dc32c312ba6303e" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "2993f72b084721f0b65818b42b5374235d9cfca0d87e4c4785a27b628f5f2080" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
