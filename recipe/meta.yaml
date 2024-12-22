@@ -8,28 +8,29 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/ndarray_listener/ndarray_listener-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/ndarray_listener/ndarray_listener-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
     - setuptools >=38.4.0
     - pytest-runner
   run:
-    - python
+    - python >={{ python_min }}
     - numpy >=1.12
 
 test:
   requires:
     - pytest >=3
     - pytest-pep8
+    - python {{ python_min }}
   imports:
     - ndarray_listener
   commands:
