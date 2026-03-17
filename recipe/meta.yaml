@@ -1,6 +1,6 @@
 {% set name = "ndarray-listener" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "2993f72b084721f0b65818b42b5374235d9cfca0d87e4c4785a27b628f5f2080" %}
+{% set version = "2.0.2" %}
+{% set sha256 = "46fefc573b1b8f681502649beb349771de67a114a17f4b9c48836d8fba18a936" %}
 
 package:
   name: {{ name|lower }}
@@ -8,13 +8,13 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/ndarray_listener/ndarray_listener-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/ndarray_listener/ndarray_listener-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
